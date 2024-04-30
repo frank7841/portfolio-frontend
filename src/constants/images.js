@@ -18,7 +18,7 @@ import sass from '../assets/sass.png';
 import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
 import next from '../assets/next.svg';
-import spring from '../assets/spring.svg'
+import spring from '../assets/spring.png'
 
 import about01 from '../assets/about01.png';
 import about02 from '../assets/about02.png';
@@ -37,7 +37,7 @@ import nb from '../assets/nb.png';
 import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 
-export default {
+const images =  {
   next,
   email,
   mobile,
@@ -74,3 +74,4 @@ export default {
   spotify,
   spring
 };
+export default images
