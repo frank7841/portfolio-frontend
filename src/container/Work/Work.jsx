@@ -41,7 +41,7 @@ const Work = () => {
       <h2 className="head-text">My Creative <span>Portfolio</span> Section</h2>
 
       <div className="app__work-filter">
-        {[ 'Web App', 'Mobile App', 'React JS', 'All'].map((item, index) => (
+        {['Web App', 'Mobile App', 'React JS', 'All'].map((item, index) => (
           <div
             key={index}
             onClick={() => handleWorkFilter(item)}
@@ -69,7 +69,7 @@ const Work = () => {
                 transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
                 className="app__work-hover app__flex"
               >
-                <a href={work.projectLink} target="_blank" rel="noreferrer">
+                <a href={work.projectLink} target="_blank" rel="noreferrer" aria-label="Demo">
 
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
@@ -80,7 +80,7 @@ const Work = () => {
                     <AiFillEye />
                   </motion.div>
                 </a>
-                <a href={work.codeLink} target="_blank" rel="noreferrer">
+                <a href={work.codeLink} target="_blank" rel="noreferrer" aria-label="Code">
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
                     whileHover={{ scale: [1, 0.90] }}
