@@ -60,5 +60,9 @@
     "eslint-plugin-jsx-a11y": "^6.8.0",
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.2"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/frank7841/portfolio-frontend/issues"
+  },
+  "homepage": "/"
 }
