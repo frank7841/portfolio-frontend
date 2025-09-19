@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-  margin-top: 2rem;
+  margin-top: 0.5rem; 
 }
 
 .app__profile-item {
@@ -18,12 +18,12 @@
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
-  margin: 0.5rem;
+  margin: 0.2rem; 
 
   img {
     width: 100%;
-    height: 170px;
-    border-radius: 15px;
+    height: 140px; // Optional: reduce height for minimal look
+    border-radius: 12px; // Slightly smaller radius for a tighter look
     object-fit: cover;
   }
 
